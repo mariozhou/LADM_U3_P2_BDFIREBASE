@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity2">
+
+    <EditText
+        android:id="@+id/nombre"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:textSize="17sp" />
+
+
+    <EditText
+        android:id="@+id/celular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Celular"
+        android:layout_marginBottom="20dp"
+        android:inputType="phone"
+        android:textSize="17sp" />
+
+
+        <EditText
+            android:id="@+id/cantidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Cantidad"
+            android:textSize="17sp" />
+
+
+        <EditText
+            android:id="@+id/descp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Descripcion"
+            android:textSize="17sp" />
+
+
+        <EditText
+            android:id="@+id/precio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Precio"
+            android:inputType="phone"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/agregarcliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="Agregar Producto" />
+
+    <Button
+        android:id="@+id/agrepedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Subir pedido"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/regresa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:textSize="17sp" />
+
+
+    <ListView
+        android:id="@+id/listapedidopen"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="50dp" />
+
+</LinearLayout>
